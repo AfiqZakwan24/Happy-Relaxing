@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HR - PERFORMANCE SLOT</title>
+        <link href="css/slot.css" rel="stylesheet">
+        <script src="script.js"> async</script>
+        
+        <div class="main-nav">
+            <div>
+                <img class="HRlogo" src="Image/logo/creative_music_logo_designs-removebg-preview.png" alt="Happy Relaxing Logo">
+            </div>
+            <div class="right-nav">
+                <a href="index.html">AUDIENCE</a>
+                <a href="slotDate.html" class="active">MUSICIAN</a>
+                <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Profile</a>
+                <a href="#">Privacy</a>
+                <a href="#">About</a>
+                <a href="#">Logout</a>
+              </div>
+        </div>
+    </head>
+    <hr>
+    <body>
+        <h1>PERFORMANCE SLOT</h1>
+        <div class="main-icon">
+            <div><img class="icon" src="Image/calender-g6c09473aa_1280.png" alt="calender"></div>
+            <div><img class="icon on" src="Image/information-g5493dd53c_1280.png" alt="Additional Information "></div>
+            <div><img class="icon" src="Image/check-mark-g66464deb4_1280.png" alt="Additional Information "></div>
+        </div>
+        <div class="input-dt sif">
+            <table>
+                <tr>
+                    <td>Band Name:</td>
+                    <td><input type="text"></td>
+                    <td>Account Type:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Band Description:</td>
+                    <td><input class="desc" type="text"></td>
+                    <td>Account Number:</td>
+                    <td><input type="number"></td> 
+                </tr>
+            </table>
+            <input class="btn" type="button" onclick="SDate()" value="Back">
+            <input class="btn"type="button" onclick="SVerify()" value="Next">
+        </div>
+    </body>
+    <footer>
+        <div class="main-nav right-nav">
+            <div>
+                <img class="HRlogo" src="Image/logo/creative_music_logo_designs-removebg-preview.png" alt="Happy Relaxing Logo">
+            </div>
+            <div>
+                HAPPY RELAXING - 2020
+            </div>
+        </div>
+    </footer>
+</html>

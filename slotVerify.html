@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HR - PERFORMANCE SLOT</title>
+        <link href="css/slot.css" rel="stylesheet">
+        <script src="script.js"> async</script>
+        
+        <div class="main-nav">
+            <div>
+                <img class="HRlogo" src="Image/logo/creative_music_logo_designs-removebg-preview.png" alt="Happy Relaxing Logo">
+            </div>
+            <div class="right-nav">
+                <a href="index.html">AUDIENCE</a>
+                <a href="slotDate.html" class="active">MUSICIAN</a>
+                <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Profile</a>
+                <a href="#">Privacy</a>
+                <a href="#">About</a>
+                <a href="#">Logout</a>
+              </div>
+        </div>
+    </head>
+    <hr>
+    <body>
+        <h1>PERFORMANCE SLOT</h1>
+        <div class="main-icon">
+            <div><img class="icon" src="Image/calender-g6c09473aa_1280.png" alt="calender"></div>
+            <div><img class="icon " src="Image/information-g5493dd53c_1280.png" alt="Additional Information "></div>
+            <div><img class="icon on" src="Image/check-mark-g66464deb4_1280.png" alt="Additional Information "></div>
+        </div>
+        <div class="input-dt">
+            <table>
+                <tr>
+                    <td>Date</td>
+                    <td>12/1/2022</td>
+                </tr>
+                <tr>
+                    <td>Time:</td>
+                    <td>12.02 PM</td>
+                </tr>
+                <tr>
+                    <td>Band Name:</td>
+                    <td>MUSTIKA</td>
+                </tr>
+                <tr>
+                    <td>Band Description:</td>
+                    <td>desc</td>
+                </tr>
+                <tr>
+                    <td>Account Type:</td>
+                    <td>MAYBANK</td>
+                </tr>
+                <tr>
+                    <td>Account Number:</td>
+                    <td>000022225654</td>
+                </tr>
+                <tr>
+                    <td>TAC Number:</td>
+                    <td><input type="number"><input class="btnR" type="button" onclick="tac()" value="REQUEST"></td>
+                </tr>
+            </table>
+            <input class="btn" type="button" onclick="SInfo()" value="Back">
+            <input class="btn"type="button" onclick="HomePage()" value="Apply">
+        </div>
+    </body>
+    <footer>
+        <div class="main-nav right-nav">
+            <div>
+                <img class="HRlogo" src="Image/logo/creative_music_logo_designs-removebg-preview.png" alt="Happy Relaxing Logo">
+            </div>
+            <div>
+                HAPPY RELAXING - 2020
+            </div>
+        </div>
+    </footer>
+</html>
