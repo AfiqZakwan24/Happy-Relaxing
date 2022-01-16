@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    margin: 0px;
+    padding: 0;
+    background: #87adfe;
+    font-family: 'Montserrat';
+}
+
+head{
+    margin: none;
+}
+
+body{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown{
+    margin: 0 auto;
+}
+
+nav{
+    height: 60px;
+    background: #06024e;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.logo{
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    background: #06024e;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    background: #181372;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.main-nav{
+    background-color: #06024e;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cons{
+    margin-top:30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    height: auto;
+}
+
+.home{
+    color:#06024e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border-bottom: 1px black solid;
+}
+
+h1{
+    margin-top: 10px;
+    color: red;
+}
