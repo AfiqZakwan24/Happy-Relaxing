@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    margin: 0px;
+    padding: 0;
+    background: rgb(235, 233, 233);
+    font-family: 'Montserrat';
+}
+
+head{
+    margin: none;
+}
+
+body{
+    background: #06024e;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown{
+    margin: 0 auto;
+}
+
+nav{
+    height: 60px;
+    background: #06024e;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.logo{
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    background: #06024e;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    background: #181372;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.main-nav{
+    background-color: #06024e;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* header*/
+
+.active{
+    color: #F64C72;
+}
+
+span{
+	float: right;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.HRlogo{
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.container{
+    margin-bottom: 0pt;
+}
+
+.glad{
+    position: absolute;
+    right: 16px;
+    top: 35%;
+    color: white;
+    font-size: 4.7em;
+}
+
+.wallpaper{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 15pt;
+    color: #F64C72;
+}
+
+.chooseUs{
+    align-items: center;
+    background: rgb(235, 233, 233);
+    color: #242582;
+    justify-content: center;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+th{
+    font-size: 1.5em;
+}
+
+td{
+    table-layout: auto;
+    width: 450px;  
+    padding: 20px;
+    text-indent: 30px;
+    line-height: 1.7;
+}
+
+.band{
+    width:120pt;
+    height:120pt;
+    border-radius: 50%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    line-height: 1.7;
+}
+
+.today:nth-child(odd){
+    background: rgb(235, 233, 233);
+    justify-content: space-between;
+}
+
+.today:nth-child(even){
+    background: #242582;
+    color: white;
+}
+
+.today{
+    display: flex;
+    padding:30px 10% 30px 10%;
+}
+.today-band{
+    width:350px;
+    height: 280px;
+}
+
+.today-performance:nth-child(even){
+    margin-left:20px;
+}
+
+.upImage{
+    width: 200px;
+    height: 132px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+}
+
+.upcoming{
+    display: flex;
+    justify-content: center;
+    padding-bottom:15pt;
+    padding-top: 15pt;
+    background: rgb(235, 233, 233);
+}
+
+.upcoming>div{
+    margin-right: 25pt;
+    background: blanchedalmond;
+    border: 1px black solid;
+    padding-bottom: 10pt;
+}
+
+.upband{
+    width:350px;
+    padding: 10px;
+}
+
+.odd{
+    background: #242582;
+    color: white;
+}
+
+.btn{
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 10px;
+    background: #0eb5f6;
+}
+
+.TBand:hover{
+    background: #F64C72;
+}
+
+.BBand{   
+    background-color: rgb(245, 203, 141);;
+    background-repeat:no-repeat;
+    border: 1px black solid;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.BBand:hover{
+    opacity: 0.8;
+}
